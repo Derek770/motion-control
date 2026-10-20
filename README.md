@@ -1,29 +1,27 @@
-# Yashwant Sonkar - Personalized Portfolio
+# Yashwant Sonkar - Interactive Developer & Game Portfolio
 
-A responsive developer portfolio website customized for **Yashwant Sonkar**, Full-Stack Developer & AI Specialist (B.Tech CSE at Bennett University).
+A modern, responsive portfolio and interactive arcade built with **Tailwind CSS**, **HTML5 Canvas**, and vanilla **JavaScript**, customized for **Yashwant Sonkar** (Full-Stack & AI Developer at Bennett University).
 
 ---
 
-## 🌟 Highlights & Included Sections
+## 🌟 Highlights & Features
 
-- **Interactive Particle System**: Hardware-accelerated canvas constellation network that reacts to cursor movement, attracts/repels dynamically, draws interactive connection threads, triggers particle bursts on click, and shifts palettes between dark and light themes.
-- **Hero Section**: Personal introduction, live status badge, interactive TypeScript code window, live app link (`spurt-local.vercel.app`), and social links (GitHub, LinkedIn, Email, Phone).
-- **About Me**: Professional summary highlighting web development and artificial intelligence integration.
-- **Technical Skills**:
-  - **Programming Languages**: JavaScript (ES6+), TypeScript, C++, Python, HTML5
-  - **Frontend**: React.js, Next.js, React Native, Tailwind CSS
-  - **Backend**: Node.js, Express.js, Flask, RESTful APIs
-  - **Databases & ORM**: MongoDB, SQL, Firebase, Mongoose ODM, Sequelize ORM
-  - **AI & Machine Learning**: TensorFlow, Scikit-learn, NumPy, Pandas, Generative AI (Prompt Engineering)
-  - **Developer Tools**: Git, GitHub, RESTful APIs, Expo Go, Vercel
-- **Featured Projects**:
-  1. **Spurt Local**: Hyper-local sports matchmaking app (Next.js, Python, Firebase, Vercel) with live link `spurt-local.vercel.app`.
-  2. **ComicVerse**: Digital comic e-commerce platform (Next.js, Node.js, Express, MongoDB, Tailwind CSS, Clerk, Cloudinary).
-  3. **CropSense**: Precision agriculture recommendation system (TensorFlow, Scikit-learn, React, Flask, MongoDB, MySQL, C++).
-- **Education Timeline**: Bennett University, B.Tech in Computer Science Engineering (2023 – 2027), Greater Noida, UP.
+- **🎮 Playable Mini-Game ("Cyber Dodge: Neon Rush")**:
+  - Full-featured 60FPS retro neon arcade game built on HTML5 Canvas.
+  - Web Audio API synthesizer for retro sound effects (no audio asset files needed).
+  - Hazard collision physics, glowing collectible energy cores (+75 pts), and particle explosion sparks.
+  - Live Score & Persistent High Score saved in `localStorage`.
+  - Multi-platform controls: Desktop (Arrow Keys / WASD / Mouse drag) and Mobile (On-screen touch buttons / Touch drag).
+- **Interactive Particle Constellation Network**: Hardware-accelerated canvas background with cursor attraction/repulsion, glowing connection threads, click explosion bursts, and automatic theme adaptation.
+- **Projects Showcase**: Filterable by *All*, *Full-Stack*, *AI & ML*, and *Games & Labs*:
+  - **Spurt Local**: Hyper-local sports matchmaking app (Live on [spurt-local.vercel.app](https://spurt-local.vercel.app)).
+  - **ComicVerse**: Digital comic e-commerce platform with Mongoose ODM & Clerk auth.
+  - **CropSense**: Machine learning crop prediction model (Random Forest + agricultural dataset).
+  - **Cyber Dodge**: Live playable mini-game right on the webpage.
+- **Technical Skills Matrix**: Comprehensive coverage across Programming Languages, Frontend, Backend, Databases, AI/ML, and Developer Tools.
+- **Education Timeline**: Bennett University, B.Tech in CSE (2023 – 2027), Greater Noida, UP.
 - **Contact & Booking**: Direct contact channels (+91 7985088024, sonkaryashwant770@gmail.com, GitHub, LinkedIn) and functional message form.
-- **Dark / Light Mode**: System theme detection with persistent `localStorage`.
-- **Responsive Mobile Navigation**: Clean slide-down menu with icons.
+- **Theme Switcher**: Smooth Dark/Light mode toggle respecting OS preferences.
 
 ---
 
@@ -31,17 +29,20 @@ A responsive developer portfolio website customized for **Yashwant Sonkar**, Ful
 
 ```
 portfolio/
-├── index.html        # Main HTML5 markup & personalized content
-├── style.css         # Styling, glassmorphism, scrollbars & badges
+├── index.html        # Main HTML5 structure with Arcade Arena & Portfolio sections
+├── game.js           # Cyber Dodge 2D arcade game engine & Web Audio synthesizer
+├── particles.js      # Interactive background particle constellation system
+├── style.css         # Styling, glassmorphism, scrollbars, and badges
 ├── script.js         # Theme toggle, filter logic, contact form & modal
-└── README.md         # Documentation
+├── vercel.json       # Production deployment configuration for Vercel
+└── README.md         # Documentation & deployment guide
 ```
 
 ---
 
 ## 🚀 How to Preview Locally
 
-Run the following command inside this directory:
+Run a local server:
 
 ```powershell
 python -m http.server 3000
@@ -51,13 +52,31 @@ Then visit `http://localhost:3000` in any browser.
 
 ---
 
-## 🌐 Deploying for Free
+## 🐙 Push to Your GitHub
 
-### GitHub Pages
-1. Push these files to a GitHub repository named `portfolio` or `<username>.github.io` on your account (`github.com/derek770derek-byte`).
-2. Go to **Settings > Pages** and select `main` branch.
-3. Your portfolio will be live at `https://derek770derek-byte.github.io`!
+1. Create a new repository on your GitHub account ([github.com/new](https://github.com/new)) named `game-portfolio`.
+2. In your terminal, run:
 
-### Vercel
-1. Import your GitHub repository into [Vercel](https://vercel.com).
-2. Click **Deploy** (zero configuration needed since it's standard static HTML/JS).
+```powershell
+cd C:\Users\PREDATOR\.gemini\antigravity\scratch\portfolio
+git remote add origin https://github.com/derek770derek-byte/game-portfolio.git
+git push -u origin main
+```
+
+---
+
+## ⚡ Deploy to Vercel
+
+### Option 1: Via Vercel Dashboard (Recommended)
+1. Go to [vercel.com/new](https://vercel.com/new).
+2. Connect your GitHub account (`derek770derek-byte`) and select your `game-portfolio` repository.
+3. Keep default settings (Framework: *Other*) and click **Deploy**.
+4. Your site will be live instantly with automated SSL and global CDN!
+
+### Option 2: Via Vercel CLI
+Run in terminal:
+```powershell
+cd C:\Users\PREDATOR\.gemini\antigravity\scratch\portfolio
+npx vercel
+```
+Follow the quick prompts to link and deploy to your Vercel account.
