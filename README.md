@@ -14,6 +14,7 @@ A modern, responsive portfolio and interactive arcade built with **Tailwind CSS*
   - Multi-platform controls: Desktop (Arrow Keys / WASD / Mouse drag) and Mobile (On-screen touch buttons / Touch drag).
 - **Interactive Particle Constellation Network**: Hardware-accelerated canvas background with cursor attraction/repulsion, glowing connection threads, click explosion bursts, and automatic theme adaptation.
 - **Projects Showcase**: Filterable by *All*, *Full-Stack*, *AI & ML*, and *Games & Labs*:
+  - **FleetPulse (Cab Optimization)**: Commercial fleet & cab optimization platform with real-time GPS telematics, shift dispatch, and fee ledger (Live on [derek770-github-io.vercel.app](https://derek770-github-io.vercel.app/)).
   - **Spurt Local**: Hyper-local sports matchmaking app (Live on [spurt-local.vercel.app](https://spurt-local.vercel.app)).
   - **ComicVerse**: Digital comic e-commerce platform with Mongoose ODM & Clerk auth.
   - **CropSense**: Machine learning crop prediction model (Random Forest + agricultural dataset).
