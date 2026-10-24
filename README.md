@@ -59,7 +59,7 @@ Then visit `http://localhost:3000` in any browser.
 
 ```powershell
 cd C:\Users\PREDATOR\.gemini\antigravity\scratch\portfolio
-git remote add origin https://github.com/derek770derek-byte/game-portfolio.git
+git remote add origin https://github.com/Derek770/game-portfolio.git
 git push -u origin main
 ```
 
@@ -69,7 +69,7 @@ git push -u origin main
 
 ### Option 1: Via Vercel Dashboard (Recommended)
 1. Go to [vercel.com/new](https://vercel.com/new).
-2. Connect your GitHub account (`derek770derek-byte`) and select your `game-portfolio` repository.
+2. Connect your GitHub account (`Derek770`) and select your `game-portfolio` repository.
 3. Keep default settings (Framework: *Other*) and click **Deploy**.
 4. Your site will be live instantly with automated SSL and global CDN!
 
